@@ -1,0 +1,158 @@
+body {
+  background-color: #e5e5e5;
+}
+
+.card-body {
+    background-color: #e5e5e5;
+}
+
+.list-headings {
+  display: flex;
+}
+
+.list-headings li {
+  color: #00945e;
+  margin-right: 10px;
+  list-style-type: none;
+}
+
+.julius {
+  display: flex;
+}
+
+.company h5{
+  font-size: 20px
+}
+
+.tobias {
+    font-size: 12px;
+}
+
+.julius p {
+  font-family: Lato;
+  font-style: normal;
+  font-size: 35px;
+}
+
+.julius img {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.container .first .step img {
+    width: 250px;
+    height: 250px
+
+}
+
+.container .first .step {
+    margin-top: 40px;
+}
+
+.container .first .step h6{
+   margin: 0 auto;  
+   width: 100%;
+   
+          
+}
+.list-inline li a {
+  text-decoration: none;
+}
+
+.list-inline li a{
+  font-size: 18px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .container .first .step {
+          margin: 0 auto;
+          display: block;
+          text-align: center;
+         
+      }
+
+    .julius {
+        width: 90%
+    }
+
+    .headings {
+    margin: 0 auto;
+    display: block;
+    width: 90%
+
+    }
+
+    .company{
+      margin: 0 auto;
+      display: block;
+      width: 90%
+
+    }
+    .list-inline {
+      margin-left: 17px;
+    }
+
+   .list-inline li a{
+  font-size: 13px;}
+
+
+  .card {
+    margin: 0 auto;
+    display: block;
+   
+  }
+
+  .step {
+    margin-bottom: 15px !important;
+    width: 300px !important;
+    margin: 0 auto;
+    display: block;
+    
+  }
+
+  .container .first .step h6{
+    text-align: center;
+}
+
+
+ 
+}
+  
+    
+
+
+@media screen and (max-width: 500px) {
+      .container .first .step {
+         margin-top: 40px;
+          display: block;
+          width: 80%;
+         
+      }
+
+      .list-headings li {
+        
+        font-size: 13px;
+      }
+
+      .company{
+        margin: 0 auto;
+        display: block;
+        width: 90%
+  
+      }
+      .awards {
+        
+        margin: 0 auto;
+        display: block;
+        width: 95%
+      }
+
+      .list-inline li a{
+        font-size: 13px;
+      }
+    
+
+}
